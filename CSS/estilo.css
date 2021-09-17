@@ -1,0 +1,275 @@
+        * {
+            margin: 0px;
+        }
+        
+        #bolco-painel {
+            background-color: black;
+            border: rgb(12, 12, 160) 3px solid;
+            width: 1000px;
+            height: auto;
+            margin: 10px auto -30px auto;
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 7);
+            padding: 10px;
+        }
+        /*Discrição de estilização do Menu */
+        
+        .foto-m {
+            width: 35px;
+            height: 35px;
+            border: black 1px solid;
+            border-radius: 50%;
+            left: 20px;
+            top: 8px;
+            position: relative;
+            z-index: 2;
+        }
+        
+        #menu {
+            width: auto;
+            height: 20%;
+            background-color: cadetblue;
+            border: 3px solid rgb(0, 174, 255);
+            border-radius: 20px;
+            margin-top: -38px;
+            text-align: center;
+        }
+        
+        #menu ul {
+            list-style-type: none;
+            text-transform: uppercase;
+        }
+        
+        #menu li {
+            display: inline-block;
+            padding: 4px;
+            margin: 4px;
+            text-align: center;
+            transition: background-color 2s;
+        }
+        
+        #menu a {
+            display: flex;
+            text-decoration-style: center;
+            text-decoration: none;
+            padding: 4px;
+            color: rgb(28, 34, 18);
+        }
+        
+        #menu li a:hover {
+            background-color: rgb(131, 122, 250);
+            border: 2px solid white;
+            border-radius: 20px;
+        }
+        /*Discrição de estilo do banner */
+        
+        #baner {
+            background-color: rgb(117, 241, 117);
+            width: auto;
+            height: 18%;
+            border: 3px solid rgba(255, 174, 0, 0.973);
+            border-radius: 20px;
+            margin-top: 2px;
+        }
+        
+        .foto {
+            width: 150px;
+            height: 150px;
+            margin: 20px;
+            border: 2pxdotted yellow;
+            border-radius: 50%;
+        }
+        
+        .titulobah1 {
+            margin-top: -15px;
+            text-align: right;
+            margin-right: 90px;
+            color: rgb(250, 245, 245);
+            position: absolute;
+            right: 40px;
+            top: 105px;
+        }
+        
+        .titulobah2 {
+            margin-top: -15px;
+            text-align: right;
+            margin-right: 6px;
+            color: rgb(250, 245, 245);
+            position: absolute;
+            right: 40px;
+            top: 140px;
+        }
+        /*Discrição sobre botões de troca de blocos.*/
+        
+        form {
+            display: flex;
+        }
+        
+        input #btn1 #btn2 {
+            text-align: center;
+        }
+        
+        #btn1 {
+            width: 100px;
+            height: 35px;
+            border: 3px solid rgb(56, 255, 6);
+            border-radius: 35px;
+            background-color: rgb(255, 6, 6);
+            text-transform: uppercase;
+            color: azure;
+            margin-left: 35%;
+        }
+        
+        #btn1:hover {
+            background-color: rgb(59, 223, 53);
+            color: white;
+            border: 2px solid white;
+        }
+        
+        #btn2 {
+            width: 120px;
+            height: 35px;
+            border: 2px solid rgb(255, 6, 27);
+            border-radius: 35px;
+            background-color: rgb(35, 255, 6);
+            text-transform: uppercase;
+            color: azure;
+            margin-left: 3%;
+        }
+        
+        #btn2:hover {
+            background-color: rgb(248, 8, 40);
+            color: white;
+            border: 2px solid white;
+        }
+        /*Discrição de estilo informacao*/
+        
+        #informacao {
+            background-color: rgb(132, 202, 193);
+            width: auto;
+            height: 68%;
+            margin-top: 3px;
+            border-radius: 5px;
+            border: rgb(0, 183, 255) 3px solid
+        }
+        
+        #titu {
+            margin: 20px;
+        }
+        
+        .titu2 {
+            font-size: 21px;
+            text-align: center;
+            color: rgb(19, 75, 40)
+        }
+        
+        .pag {
+            padding: 20px;
+            text-justify: auto;
+        }
+        /*Fornatação de do segundo bloca de troca pelo java script.*/
+        
+        #informacao1 {
+            background-color: rgb(252, 229, 229);
+            border: 4px solid yellow;
+            width: 100%;
+            height: 300px;
+            margin-top: 25px;
+        }
+        
+        .dev {
+            background-color: aqua;
+            text-align: center;
+            padding-top: 2px;
+        }
+        
+        .titulo2 {
+            color: rgba(0, 0, 0, 0.644);
+            font-size: 23px;
+            text-align: center;
+        }
+        
+        .vid {
+            width: 100%;
+            height: 270px;
+            margin-top: 5px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        /*Formatação onde apresento trabalhos e comentario sobre programação.*/
+        
+        #quadro {
+            width: 97%;
+            height: 350px;
+            background-color: rgb(209, 192, 170);
+            margin-top: 35px;
+            border: 2px greenyellow dotted;
+            padding: 10px;
+            font-size: 16px;
+        }
+        
+        .texto {
+            padding: 20px;
+            margin: 20px;
+        }
+        /*Formatação do rodape da pagina também chamado de footer */
+        
+        #fimdapagina {
+            background-color: rgb(12, 12, 10);
+            width: 100%;
+            height: 200auto;
+        }
+        
+        #fimdapagina {
+            border: rgb(178, 252, 7) 3px solid;
+            border-radius: 5px;
+            color: white;
+            float: center;
+            position: absolute;
+        }
+        
+        .letrarodape {
+            text-align: center;
+            margin-top: 3px;
+            margin-bottom: 10px;
+        }
+        
+        nav ul li img {
+            width: 40px;
+            height: 40px;
+            display: flex;
+            left: 30%;
+            background-color: azure;
+            border: 3px solid azure;
+            border-radius: 50%;
+            transform-style: background-color 1s;
+        }
+        
+        nav ul li a {
+            list-style-type: none;
+            display: inline-block;
+        }
+        
+        li {
+            display: inline-block;
+            padding: 20px;
+            margin: 2px;
+        }
+        
+        nav ul li a :hover {
+            background-color: rgb(184, 250, 4);
+            border: rgb(79, 216, 79);
+        }
+        
+        .voltar {
+            width: 30px;
+            height: 30px;
+            border: 3px solid white;
+            border-radius: 50%;
+            margin: 5px;
+        }
+        /*Local do bloca que ficara em segundo plana do Portifolio.*/
+        
+        #informacao1 {
+            display: none;
+        }

@@ -197,7 +197,8 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            margin-left: 14%;
+            margin-left: auto;
+            margin-right: auto;
         }
         /*Formatação onde apresento trabalhos e comentario sobre programação.*/
         

@@ -165,6 +165,7 @@
         
         .pag {
             padding: 20px;
+            font-family:italic;
             font-size: 16px;
             text-justify: auto;
         }
@@ -214,6 +215,7 @@
         
         .texto {
             padding: 20px;
+            font-family:italic;
             margin: 20px;
         }
         /*Formatação do rodape da pagina também chamado de footer */
